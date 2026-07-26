@@ -7,7 +7,7 @@ cask "modeleaf" do
   desc "Native, read-only macOS PDF viewer"
   homepage "https://github.com/DS-argus/modeleaf"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Modeleaf.app"
 
