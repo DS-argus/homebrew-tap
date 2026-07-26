@@ -8,6 +8,7 @@ A native, read-only macOS PDF viewer — keyboard-first, with tabs and tmux-styl
 
 ```sh
 brew tap DS-argus/tap
+brew trust DS-argus/tap        # Homebrew 6+ asks you to trust a third-party tap once
 brew install --cask modeleaf
 ```
 
