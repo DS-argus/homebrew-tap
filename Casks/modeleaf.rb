@@ -1,6 +1,6 @@
 cask "modeleaf" do
-  version "0.11.0"
-  sha256 "bed86fbf83befc9a48e73f22aec3f70eb32630f4eb02cb3c9dca1efed3fb6a3c"
+  version "0.11.1"
+  sha256 "85805c66bbc71790339d359b4eb6717f33cff9fd527506019729050228980a62"
 
   url "https://github.com/DS-argus/modeleaf/releases/download/v#{version}/Modeleaf-#{version}.zip"
   name "Modeleaf"
