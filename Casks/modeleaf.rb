@@ -1,6 +1,6 @@
 cask "modeleaf" do
-  version "0.11.1"
-  sha256 "85805c66bbc71790339d359b4eb6717f33cff9fd527506019729050228980a62"
+  version "0.12.0"
+  sha256 "2ef76d3fd809c44a979c8f20a4518cd02e283726f12c150477c3d2298b1a1789"
 
   url "https://github.com/DS-argus/modeleaf/releases/download/v#{version}/Modeleaf-#{version}.zip"
   name "Modeleaf"
@@ -10,6 +10,8 @@ cask "modeleaf" do
   depends_on macos: :sonoma
 
   app "Modeleaf.app"
+
+  binary "#{appdir}/Modeleaf.app/Contents/SharedSupport/modeleaf"
 
   zap trash: "~/.config/modeleaf"
 end
